@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #14161E;
+  color: #fafafa;
+}
+
+.title {
+  color: #fafafa;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.subtitle {
+  color: #fafafacc;
+  font-size: 20px;
+}
+
+.text {
+  color: #fafafa95;
+  font-size: 15px;
+}
