@@ -1,0 +1,18 @@
+<div class="movies">
+  <div *ngFor="let movie of movies" class="movies__movieContainer">
+    <img class="movies__movieContainer--img" [src]="movie.poster_path | poster" alt="">
+    <p class="text movie__movieContainer--title">{{movie.title}}</p>
+    <div class="movie__movieContainer--startsAndAverage">
+      <!-- <span>*****</span> -->
+      <star-rating 
+        [value]="movie.vote_average / 2"
+        totalstars="5" 
+        checkedcolor="white" 
+        uncheckedcolor="grey" 
+        size="15px" 
+        readonly="false" 
+      ></star-rating>
+      <span>{{movie.vote_average / 2}}</span>
+    </div>
+  </div>
+</div>

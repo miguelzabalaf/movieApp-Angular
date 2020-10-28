@@ -1,0 +1,48 @@
+nav {
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+
+.nav {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px;
+  position: relative;
+}
+
+.nav__logo--figure {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: all 0.5s;
+}
+
+.nav__logo--figure:hover {
+  transform: scale(1.25);
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.nav__search--input {
+  padding: 10px 40px 10px 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  outline: none;
+  position: relative;
+}
+
+.nav__search--icon {
+  position: absolute;
+  right: 30px;
+  top: 22.5px;
+}
+
+.homeActive {
+  transition: all 0.5s ease-in-out;
+  background-color:  rgba(255, 255, 255, 0.15);
+}
